@@ -24,8 +24,8 @@ Use this section to describe your final project and perhaps any links to relevan
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=Mf5ed1527c511e5466d908f5fc7ac1f801642984684926&projectid=M0BbJoF0pnb&perm=Owner#/page/0a994eb9abf64691af5045290d021ea7)
+- [Desktop](https://wireframepro.mockflow.com/editor.jsp?editor=off&publicid=Mf5ed1527c511e5466d908f5fc7ac1f801642984684926&projectid=M0BbJoF0pnb&perm=Owner#/page/0a994eb9abf64691af5045290d021ea7)
 
 Wireframing Resources:
 
