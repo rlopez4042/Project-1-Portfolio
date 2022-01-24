@@ -24,7 +24,7 @@ This project is a personal portfolio website which will highlight other projects
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://wireframepro.mockflow.com/editor.jsp?editor=off&perm=Owner&projectid=M0BbJoF0pnb&publicid=3e0c803804874882a0b100fdf5ecd3f0#/page/D9e0950a16ff51d85c20a9b814ebf04e3)
+- [Mobile](https://wireframepro.mockflow.com/editor.jsp?editor=off&perm=Owner&projectid=M0BbJoF0pnb&publicid=b6c46dd8788447d28237eae0c263b5bf#/page/D9e0950a16ff51d85c20a9b814ebf04e3)
 - [Desktop](https://wireframepro.mockflow.com/editor.jsp?editor=off&perm=Owner&projectid=M0BbJoF0pnb&publicid=3e0c803804874882a0b100fdf5ecd3f0#/page/0a994eb9abf64691af5045290d021ea7)
 
 Wireframing Resources:
