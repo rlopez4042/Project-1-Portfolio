@@ -18,7 +18,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This project is a personal portfolio website which will highlight other projects, and websites that I hope to design. It will be built using HTML, CSS, JavaScript, jQuery, and any additional libraries such as bootstrap that may provide useful resources. My intention is to create a site that is Responsive, Dynamic, and Intuitive to navigate. It be built with a Mobile First design, and will utilize dynamic transitions as the user scrolls through the site, helping it come to life.
 
 ## Wireframes
 
