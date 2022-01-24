@@ -18,14 +18,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+This project is a personal portfolio website which will highlight other projects, and websites that I hope to design. It will be built using HTML, CSS, JavaScript, jQuery. My intention is to create a site that is responsive, dynamic, and easy to navigate. It be built with a Mobile First design, and will use dynamic transitions as the user scrolls through the site, helping it come to life.
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
+- [Mobile](https://wireframepro.mockflow.com/editor.jsp?editor=off&perm=Owner&projectid=M0BbJoF0pnb&publicid=3e0c803804874882a0b100fdf5ecd3f0#/page/D9e0950a16ff51d85c20a9b814ebf04e3)
+- [Desktop](https://wireframepro.mockflow.com/editor.jsp?editor=off&perm=Owner&projectid=M0BbJoF0pnb&publicid=3e0c803804874882a0b100fdf5ecd3f0#/page/0a994eb9abf64691af5045290d021ea7)
 
 Wireframing Resources:
 
