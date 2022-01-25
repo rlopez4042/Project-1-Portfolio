@@ -1,7 +1,33 @@
 body {
-    background: white;
+    font-family: 'Ropa Sans', sans-serif;
+    color: white;
+    background-color: black;
+    margin: 100;
 }
 
-section {
-    color: black;
+#home{
+    font-size: 60px;
 }
+
+#logo {
+    width: 1;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+
+nav ul li {
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+  }

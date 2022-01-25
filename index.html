@@ -1,73 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body>
-    <header>
-        <div class="image">
-            <!-- <img src = "paste link here" alt=""> -->
-        </div>
 
-        <div class="top-container"></div>
-        <div class="information-container"></div>
-        <div id="nav-container">
-            <li class="nav-element"><a href="#home" class="nav-link">Home</a></li>
-            <a href="nav-element">About</a>
-            <a href="nav-element">Projects</a>
-            <a href="nav-element">Links</a>
-            <a href="nav-element">Contact</a>
+    <!-- Font Family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-container">
+                <!-- <h2>Header</h2>
+				<p>This is where the logo and navigation would go.</p> -->
+            <nav class="nav">
+                <ul class="nav-element-list">
+                    <li class="nav-element"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-element"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-element"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-element"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <section class="home-title" id="home">
-        <h1 class="title-text">
-            Headline for my main tab, maybe add some buzz words.
-        </h1>
+    <div class ="logo" id="logo">
+        <img src ="/Users/robertlopez/Desktop/Project 1/project-1-portfolio/LogoTemplate.png" width="400" height="300"/>
+    </div>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <h1>Robert Lopez</h1>
+        <p>Value by design and developement.</p>
     </section>
 
-    <div class="section" id="about">
-        <h3 class="title-text" id="home">
-            Title text for the "Home" tab
-        </h3>
-        <p>Insert text.</p>
-    </div>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I am an aspiring interdisciplinary software engineer currently living in San Diego, California.</p>
+    </section>
 
-    <div class="section" id="about">
-        <h3 class="title-text" id="About">
-            Title text for the "About" tab
-        </h3>
-        <p>Insert text.</p>
-    </div>
+    <!-- Project Section -->
+    <section class="projects" id="projects">
+        <h2>Project Gallery</h2>
+        <p>A few projects I’ve had the opportunity to work on:</p>
+        
+        <!-- Links to other projects -->
+        <div class ="portfolio">
+            <a href="#" class="porflio-elements">
+                <img src ="">
+            </a>
+        </div>
+    </section>
 
-    <div class="section">
-        <h3 class="title-text" id="Projects">
-            Title text for the "Projects" tab
-        </h3>
-        <p>Insert text.</p>
-    </div>
+    <!-- About Me Section -->
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me using any of these links.</p>
+        <ul class="links">
+            <li class="link-element"><a class="link" href="mailto:rlopez4042@gmail.com">rlopez4042@gmail.com</a></li>
+            <li class="link-element"><a class="link" href="https://git.generalassemb.ly/">GitHub</a></li>
+            <li class="link-element"><a class="link" href="https://git.generalassemb.ly/">LinkedIn</a></li>
+        </ul>
+    </section>
 
-    <div class="section">
-        <h3 class="title-text" id="Links">
-            Title text for the "Links" tab
-        </h3>
-        <p>Insert text.</p>
-    </div>
-
-    <div class="section">
-        <h3 class="title-text" id="Contact">
-            Title text for the "Links" tab
-        </h3>
-        <p>Insert text.</p>
-    </div>
+    <!-- Footer -->
+    <footer>
+        <h2>Footer</h2>
+		<p>The place where site nav and other meta info typically appears.</p>
+    </footer>
 
 </body>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
     crossorigin="anonymous"></script>
 <script src="javascript.js"></script>
 <link rel="stylesheet" href="style.css"></script>
+
+
 </html>
