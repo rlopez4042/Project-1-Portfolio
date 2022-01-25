@@ -1,33 +1,72 @@
-body {
-    font-family: 'Ropa Sans', sans-serif;
-    color: white;
-    background-color: black;
-    margin: 100;
-}
 
-#home{
-    font-size: 60px;
-}
-
-#logo {
-    width: 1;
-}
-
-nav {
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
+/* Nav bar settings */
 nav ul {
+    font-family: 'Roboto Mono', monospace;
     list-style: none;
     display: flex;
     color: white;
+    text-decoration: none;
 }
 
+/* Nav element settings */
 nav ul li {
-    padding: 20px;
-    font-size: 24px;
+    padding: 1em;
+    font-size: 20px;
     color: white;
+    text-decoration: none;
   }
+
+/* Body settings */
+body{
+    background-color: #3D4849;
+}
+
+/* Section settings */
+section {
+    font-family: 'Ropa Sans', sans-serif;
+    color: white;
+    padding: 5em 2em;
+}
+
+/* Text sizes for each section by "id" */
+#MainTitle{
+    font-size: 150px;
+}
+
+#title-subtext{
+    font-size: 70px;
+}
+
+#about {
+    font-family: 'Ropa Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+#projects {
+    font-family: 'Ropa Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+#contact {
+    font-family: 'Ropa Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.link-element{
+    list-style: none;
+    color: white;
+    display: flex;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        }
+        
+        a:visited{
+        text-decoration: none;
+        color: white;
+        }
