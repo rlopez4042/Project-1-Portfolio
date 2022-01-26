@@ -29,44 +29,116 @@ section {
 }
 
 /* Text sizes for each section by "id" */
+
+/* Main title font size */
 #MainTitle{
-    font-size: 150px;
+    font-size: 100px;
 }
 
+/* Subtitle font size  */
 #title-subtext{
-    font-size: 70px;
+    font-size: 50px;
 }
 
+/* About tab font settings  */
 #about {
     font-family: 'Ropa Sans', sans-serif;
     color: white;
     font-size: 30px;
 }
 
+/* Projects tab font settings  */
 #projects {
     font-family: 'Ropa Sans', sans-serif;
     color: white;
     font-size: 30px;
 }
 
+/* Contact tab font settings  */
 #contact {
     font-family: 'Ropa Sans', sans-serif;
     color: white;
     font-size: 30px;
 }
+    .link-element{
+        list-style: none;
+        color: white;
+        display: flex;
+        }
 
-.link-element{
-    list-style: none;
+/* Text settings for the links  */
+a {
+    text-decoration: none;
     color: white;
-    display: flex;
+    }   
+a:visited {
+    text-decoration: none;
+    color: white;
     }
 
-    a{
-        text-decoration: none;
-        color: white;
-        }
-        
-        a:visited{
-        text-decoration: none;
-        color: white;
-        }
+#logo {
+    position: fixed;
+    left: 1200px; 
+}
+
+/* MOBILE  */
+/* Small devices (landscape phones, 576px and up) */
+/* @media screen and (max-width: 576px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: 4fr;
+        grid-gap: 10px;
+      }
+      .main-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-gap: 10px;
+      }
+      
+      .main-content .logo {
+        grid-column: 1;
+        grid-row: 1/2 ;
+      }
+      
+      .main-content .home {
+        grid-column: 1;
+        grid-row: 2/3;
+      }
+      
+      .main-content .about {
+        grid-column: 1;
+        grid-row: 3/4;
+      }
+      
+      .main-content .projects {
+        grid-column: 1;
+        grid-row: 4/5;
+      }
+      
+      .main-content .contact {
+        grid-column: 1;
+        grid-row: 5;
+      }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      nav ul {
+        display: none;
+      }
+} */
+
+/* TABLET */
+  /* Medium devices (tablets, 768px and up) */
+  /* @media screen and (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto 1fr auto;
+        grid-gap: 10px;
+      } */
