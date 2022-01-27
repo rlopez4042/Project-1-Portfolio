@@ -10,15 +10,12 @@
     <!-- Font Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Ropa+Sans&display=swap" rel="stylesheet">
-
-
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Mono&family=Ropa+Sans&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-
+    <div class="container">
     <header>
         <div class="nav-container">
                 <!-- <h2>Header</h2>
@@ -35,26 +32,34 @@
         </div>
     </header>
 
+    <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+    </button>
+
     <div class ="logo" id="logo">
-        <img src ="/Users/robertlopez/Desktop/Project 1/project-1-portfolio/LogoTemplate.png" width="500" height="400"/>
+        <img id="img" src ="/Users/robertlopez/Desktop/Project 1/project-1-portfolio/LogoTemplate.png" width="500" height="400" alt=""/>
     </div>
+
+<main class="main-content">
 
     <!-- Home Section -->
     <section class="home" id="home">
+        <p id="slim-shady">Hi, my name is</p>
         <h1 id="MainTitle">Robert Lopez</h1>
-        <p id="title-subtext">Value by design and developement.</p>
+        <p id="title-subtext">I strive to build value by design and development.</p>
     </section>
 
     <!-- About Section -->
     <section class="about" id="about">
         <h2>About Me</h2>
-        <p>I am an aspiring interdisciplinary software engineer currently living in San Diego, California.</p>
+        <p>A transitioning Marine Corps veteran currently pursuing a degree in Computer Science at San Diego State University. I'm an 
+            aspiring interdisciplinary software engineer currently enrolled at General Assembly and living in San Diego, California.</p>
     </section>
 
     <!-- Project Section -->
     <section class="projects" id="projects">
         <h2>Project Gallery</h2>
-        <p>A few projects I’ve had the opportunity to work on:</p>
+        <p>A few projects I’ve had the opportunity to work on. As my experience as a software developer grows, so will my library of projects displayed below. :</p>
         
         <!-- Links to other projects -->
         <div class ="portfolio">
@@ -67,7 +72,7 @@
     <!-- About Me Section -->
     <section class="contact" id="contact">
         <h2>Contact</h2>
-        <p>Feel free to reach out to me using any of these links.</p>
+        <p>Feel free to reach out to me using on any of these listed platforms.</p>
         <ul class="links">
             <li class="link-element"><a class="link" href="mailto:rlopez4042@gmail.com">rlopez4042@gmail.com</a></li>
             <li class="link-element"><a class="link" href="https://git.generalassemb.ly/">GitHub</a></li>
@@ -75,11 +80,14 @@
         </ul>
     </section>
 
+</main>
+
     <!-- Footer -->
-    <footer>
+    <footer id="footer">
         <h2>Footer</h2>
 		<p>The place where site nav and other meta info typically appears.</p>
     </footer>
+</div>
 
 </body>
 

@@ -1,144 +1,220 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
 
-/* Nav bar settings */
+/* General style and design to be incorporated at every size */
+* {
+    /* Help me to see where the boxes are as i position them */
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+body{
+    /* Source for how I got the page to split https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20 */
+    background: linear-gradient(-70deg, #3c505f 40%, 
+    rgba(0, 0, 0, 0) 30%), 
+    url('/Users/robertlopez/Desktop/Project 1/project-1-portfolio/Background2.webp');
+}
+section {
+    padding: 1em;
+    line-height: 1;
+    text-align:left;
+    margin:1;
+}
+#MainTitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+}
+#slim-shady{
+    color:orange;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+#title-subtext{
+    color:orange;
+    font-size: 20px;
+    margin: 0.1;
+    padding: 0;
+}
+h2 {
+    color:orange;
+    font-size: 22px;
+    font-style: oblique;
+    margin: 0;
+    padding: 0;
+}
+#about, #projects, #contact {
+    line-height:2;
+}
+.link-element{
+    list-style: none;
+    display: flex;
+    }
+a {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
 nav ul {
     font-family: 'Roboto Mono', monospace;
     list-style: none;
     display: flex;
     color: white;
     text-decoration: none;
-}
-
-/* Nav element settings */
-nav ul li {
+ }
+  
+ /* Nav element settings */
+ nav ul li {
     padding: 1em;
     font-size: 20px;
     color: white;
     text-decoration: none;
   }
 
-/* Body settings */
-body{
-    background-color: #3D4849;
-}
-
-/* Section settings */
-section {
-    font-family: 'Ropa Sans', sans-serif;
-    color: white;
-    padding: 5em 2em;
-}
-
-/* Text sizes for each section by "id" */
-
-/* Main title font size */
-#MainTitle{
-    font-size: 100px;
-}
-
-/* Subtitle font size  */
-#title-subtext{
-    font-size: 50px;
-}
-
-/* About tab font settings  */
-#about {
-    font-family: 'Ropa Sans', sans-serif;
-    color: white;
-    font-size: 30px;
-}
-
-/* Projects tab font settings  */
-#projects {
-    font-family: 'Ropa Sans', sans-serif;
-    color: white;
-    font-size: 30px;
-}
-
-/* Contact tab font settings  */
-#contact {
-    font-family: 'Ropa Sans', sans-serif;
-    color: white;
-    font-size: 30px;
-}
-    .link-element{
-        list-style: none;
-        color: white;
-        display: flex;
-        }
-
-/* Text settings for the links  */
-a {
-    text-decoration: none;
-    color: white;
-    }   
-a:visited {
-    text-decoration: none;
-    color: white;
-    }
-
-#logo {
-    position: fixed;
-    left: 1200px; 
-}
-
 /* MOBILE  */
 /* Small devices (landscape phones, 576px and up) */
-/* @media screen and (max-width: 576px) {
-    .container {
-        display: grid;
-        grid-template-columns: 2fr;
-        grid-template-rows: 4fr;
-        grid-gap: 10px;
-      }
-      .main-content {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4, 1fr);
-        grid-gap: 10px;
-      }
+@media only screen and (max-width: 576px) {
+    #logo {
+        display: none;
+    }
+    #footer {
+        padding: 5em 2em;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul {
+        display: none;
+     }
       
-      .main-content .logo {
-        grid-column: 1;
-        grid-row: 1/2 ;
-      }
-      
-      .main-content .home {
-        grid-column: 1;
-        grid-row: 2/3;
-      }
-      
-      .main-content .about {
-        grid-column: 1;
-        grid-row: 3/4;
-      }
-      
-      .main-content .projects {
-        grid-column: 1;
-        grid-row: 4/5;
-      }
-      
-      .main-content .contact {
-        grid-column: 1;
-        grid-row: 5;
-      }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      
-      nav ul {
+     /* Nav element settings */
+     nav ul li {
         display: none;
       }
-} */
+    .container {
+        display:grid;
+        grid-template-columns: 1fr;
+        /* Rows: 1   2   3; */
+        grid-template-rows: auto 1fr auto;
+        grid-gap: 10px;
+    }
+    .main-content {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        /* grid-template-rows: repeat(3, 1fr); */
+    }
+    .main-content .home {
+        grid-column: 1;
+		grid-row: 1/2 ;
+    }
+    .main-content .about {
+        grid-column: 1;
+		grid-row: 2/3 ;
+    }
+    .main-content .projects {
+        grid-column: 1;
+		grid-row: 3/4 ;
+    }
+    .main-content .contact {
+        grid-column: 1;
+		grid-row: 4/5 ;
+    }
+    .container .footer {
+        grid-column: 1;
+		grid-row: 5/6;
+    }
+
+}
 
 /* TABLET */
   /* Medium devices (tablets, 768px and up) */
-  /* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+button {
+    display:none;
+}
+    .logo {
+        display: flex;
+        opacity: 20%;
+        float:right;
+    }
+
+    img{
+        display:flex;
+    }
+
+    nav ul {
+        font-family: 'Roboto Mono', monospace;
+        list-style: none;
+        display: flex;
+        color: white;
+        text-decoration: none;
+        float: right;
+    }
+
+    body, footer, header{
+        padding: 1em;
+    }
+      
+     /* Nav element settings */
+     nav ul li {
+        padding: 1em;
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+      }
+    
     .container {
-        display: grid;
-        grid-template-columns: 2fr;
-        grid-template-rows: auto 1fr auto;
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 8fr;
         grid-gap: 10px;
-      } */
+    }
+    .main-content {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6fr;
+        /* grid-template-rows: repeat(3, 1fr); */
+    }
+    .container .header{
+        grid-column: 1;
+    }
+    .main-content .home {
+        grid-column: 1;
+		grid-row: 1/2 ;
+    }
+    .main-content .about {
+        grid-column: 1;
+		grid-row: 2/3 ;
+    }
+    .main-content .projects {
+        grid-column: 1;
+		grid-row: 3/4 ;
+    }
+    .main-content .contact {
+        grid-column: 1;
+		grid-row: 4/5 ;
+    }
+    .container .footer {
+        grid-column: 1;
+		grid-row: 5/6;
+    }
+    
+}
+/* DeskTop */
+  /* Large devices (tablets, 1024 and up) */
+  @media screen and (min-width: 769px) {
+    button{
+        display: none;
+    }
+}

@@ -1,0 +1,118 @@
+/* *,
+*::before,
+*::after {
+    box-sizing: border-box;
+} */
+/* MOBILE  */
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 576px) {
+    
+    * {
+        /* Help me to see where the boxes are as i position them */
+        border: 1px solid white;
+        box-sizing: border-box;
+        /* Format the text */
+        font-family: 'Ropa Sans', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    body{
+        /* Source for how I got the page to split https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20 */
+        background: linear-gradient(-70deg, #3c505f 40%, 
+        rgba(0, 0, 0, 0) 30%), 
+        url('/Users/robertlopez/Desktop/Project 1/project-1-portfolio/Background2.webp');
+        /* max-width:1024px; */
+    }
+    
+    section {
+        padding: 4em 1em;
+        line-height: 1;
+    }
+    #MainTitle{
+        font-size: 100px;
+    }
+    
+    #title-subtext{
+        font-size: 50px;
+    }
+    
+    .link-element{
+        list-style: none;
+        display: flex;
+        }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+    
+    #logo {
+        position: fixed;
+        left: 1000px; 
+    }
+    
+    #footer {
+        padding: 5em 2em;
+        text-align: center;
+    }
+
+    h1 {
+        color:#white;
+    }
+
+    nav ul li {
+        display: none;
+    }
+    
+    .container {
+        display:grid;
+        grid-template-columns: 1fr;
+        Rows:  1   2   3;
+        grid-template-rows: auto 1fr auto;
+        grid-gap: 10px;
+    }
+    .main-content {
+        display:grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap:10px;
+        }
+}
+/* ---------Containers and Layout design------------ */
+
+
+/* TABLET */
+  /* Medium devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto 1fr auto;
+        grid-gap: 10px;
+        background:white;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+    }
+    
+    nav ul li {
+        padding: 1em;
+        font-size: 20px;
+    }
+/* DeskTop */
+  /* Medium devices (tablets, 768px and up) */
+  @media screen and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: 2fr;
+        grid-template-rows: auto 1fr auto;
+        grid-gap: 10px;
+        background:black;
+      }
