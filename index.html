@@ -11,7 +11,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto+Mono&family=Ropa+Sans&display=swap" rel="stylesheet">
+    <style>
 
+    /* #nav, label #hamburger {display: none;} */
+
+    /* #nav-items {display:block}
+    #nav-items a{
+        display:block;
+        width:100%;
+        box-sizing: border-box;
+        border-top: 1px solid #333;
+    } */
+
+    /* #nav label{
+        display:inline block;
+        font-size: 1.2em;
+        padding:10px;
+    } */
+/* 
+    #nav-items{display:none;}
+
+    #nav input:checked~ #nav-items {display: block;} */
+
+    </style>
 </head>
 
 <body>
@@ -21,7 +43,11 @@
                 <!-- <h2>Header</h2>
 				<p>This is where the logo and navigation would go.</p> -->
             <nav class="nav">
-                <ul class="nav-element-list">
+
+                <label for="hamburger" ><img id="img" src ="/Users/robertlopez/Desktop/Project 1/project-1-portfolio/LogoTemplate.png" width="80" height="60" alt=""/></label>
+                <input class ="checkbox" type="checkbox" id="hamburger" invisible="true"/>
+
+                <ul class="nav-element-list" id="nav-items">
                     <li class="nav-element"><a href="#home" class="nav-link">home</a></li>
                     <li class="nav-element"><a href="#about" class="nav-link">about</a></li>
                     <li class="nav-element"><a href="#projects" class="nav-link">projects</a></li>
@@ -32,13 +58,13 @@
         </div>
     </header>
 
-    <button class="nav-toggle" aria-label="toggle navigation">
+    <!-- <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
-    </button>
+    </button> -->
 
-    <div class ="logo" id="logo">
+    <!-- <div class ="logo" id="logo">
         <img id="img" src ="/Users/robertlopez/Desktop/Project 1/project-1-portfolio/LogoTemplate.png" width="500" height="400" alt=""/>
-    </div>
+    </div> -->
 
 <main class="main-content">
 
