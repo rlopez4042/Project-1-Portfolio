@@ -10,12 +10,14 @@
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     color: white;
+    scroll-behavior: smooth;
 }
 body{
     /* Source for how I got the page to split https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20 */
     background:
     url('/Users/robertlopez/Desktop/Project 1/project-1-portfolio/Background2.webp');
 }
+
 nav ul {
     font-family: 'Roboto Mono', monospace;
     list-style: none;
@@ -32,7 +34,7 @@ nav ul {
     color: white;
     text-decoration: none;
   }
-  .checkbox{opacity: 0;}
+.checkbox{opacity: 0;}
 section {
     padding: 1em;
     line-height: 1;
@@ -79,6 +81,7 @@ a:visited {
     text-decoration: none;
     color: white;
 }
+a:hover{color:orange;}
 
 /* MOBILE  */
 /* Small devices (landscape phones, 576px and up) */
