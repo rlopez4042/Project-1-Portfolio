@@ -8,11 +8,11 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Complete
+|Day 4| MVP & Bug Fixes | Complete
+|Day 5| Final Touches | Complete
 |Day 6| Present | Incomplete
 
 
@@ -65,7 +65,7 @@ Wireframing Resources:
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | 1hr |
+| Text Hover | L | 3hr | -hr | 1hr |
 | Banner letters change color | L | 1hr | 1hr |
 | Make own logo/icon | L | 4hr | 1hr |
 | Total | H | 15hrs| 3hrs |
