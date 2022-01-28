@@ -1,9 +1,11 @@
+// https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_animations
+
 var goldenCenter = new Image();
 var darkGrayCircle = new Image();
 
 function init() {
   goldenCenter.src = '/Users/robertlopez/Desktop/Project 1/project-1-portfolio/GoldCircle.png';
-  darkGrayCircle.src = '/Users/robertlopez/Desktop/Project 1/project-1-portfolio/Picture1.png';
+  darkGrayCircle.src = '/Users/robertlopez/Desktop/Project 1/project-1-portfolio/GoldCircle.png';
   window.requestAnimationFrame(draw);
 }
 
