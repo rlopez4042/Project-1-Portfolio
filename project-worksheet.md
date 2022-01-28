@@ -77,11 +77,8 @@ Wireframing Resources:
  
 ## Code Snippet
 
-canvas{
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-}
+var time = new Date();
+  ctx.rotate(((5 * Math.PI) / 60) * time.getSeconds() + ((5 * Math.PI) / 60000) * time.getMilliseconds());
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.

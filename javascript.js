@@ -22,7 +22,7 @@ function draw() {
 
   // smaller circle
   var time = new Date();
-  ctx.rotate(((2 * Math.PI) / 60) * time.getSeconds() + ((2 * Math.PI) / 60000) * time.getMilliseconds());
+  ctx.rotate(((5 * Math.PI) / 60) * time.getSeconds() + ((5 * Math.PI) / 60000) * time.getMilliseconds());
   
   //distance of the smaller ciricle compared to the larger one.
   ctx.translate(105, 0);
