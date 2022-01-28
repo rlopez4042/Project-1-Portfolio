@@ -167,14 +167,20 @@ a:hover{color:gold;}
 		grid-row: 3;
     }
     .main-content .about {
+        padding-top:100px;
+
         grid-column: 1;
 		grid-row: 4 ;
     }
     .main-content .projects {
+        padding-top:100px;
+
         grid-column: 1;
 		grid-row: 5;
     }
     .main-content .contact {
+        padding-top:100px;
+
         grid-column: 1;
 		grid-row: 6;
     }
@@ -185,27 +191,39 @@ a:hover{color:gold;}
 }
 /* --------------------------------------------------------------------DeskTop-------------------------------------------------------------------- */
   /* Large devices (tablets, 1024 and up) */
-  @media screen and (min-width: 769px) {
+  @media screen and (min-width: 769px ) {
     label{
         display:none;
     }
 
     /* use this one to move the nav container around */
     .nav-container{
-        float:left;
+        position:absolute;
+        right:0px; 
+        top:0px;   
     }
 
+    /* Adjust the contents of the main title/subtitle */
     #MainTitle{
-        font-size: 70px;
+        font-size: 60px;
     }
     #slim-shady{
-        font-size: 20px;
+        font-size: 15px;
     }
     #title-subtext{
-        font-size: 24px;
+        font-size: 19px;
+    }
+    #home{
+        padding-top:70px;
+        padding-left:0px;
+        padding-right:0px;
+        padding-bottom:0px;
     }
     h2 {
         font-size: 32px;
+    }
+    html{
+        margin: 0 auto;
     }
     body {
         font-size: 20px;
@@ -218,8 +236,11 @@ a:hover{color:gold;}
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
+        padding-bottom:100px;
     }
     .main-content {
+        padding-top:250px;
+        width:810px;
         display:grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 6fr;
@@ -238,22 +259,25 @@ a:hover{color:gold;}
 		grid-row: 1/2 ;
     }
     .main-content .about {
+        padding-top:250px;
         grid-column: 1/3;
 		grid-row: 2/3 ;
     }
     .main-content .projects {
+        padding-top:200px;
+
         grid-column: 1/3;
 		grid-row: 3/4 ;
     }
     .main-content .contact {
+        padding-top:200px;
+
         grid-column: 1/3;
 		grid-row: 4/5 ;
     }
     .container .footer {
+        padding-top:200px;
         grid-column: 1;
 		grid-row: 3/4
     }
-    nav {
-        float:left;
-      }
 }
