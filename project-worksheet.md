@@ -54,23 +54,21 @@ Wireframing Resources:
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Layout/Structure | H | 4hr | hr |
-| Hamburger Menu | H | 3hr | hr |
-| Regular Nav | H | 2hr | hr |  
-| Adding Form | H | 2hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 18hrs| hrs |
+| Layout/Structure | H | 4hr | 4hr |
+| Hamburger Menu | H | 3hr | 4hr |
+| Regular Nav | H | 2hr | 1hr |  
+| Adding Form | H | 2hr|  1hr | 
+| Other sections and flex| M | 3hr | 4hr|
+| Responsive | H | 3hr | 1hr | 8hr |
+| Total | H | 18hrs| 22hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters change color | L | 1hr | hr |
-| Specialized Phone display for tabs | L | 4hr | hr |
-| Make own logo/icon | L | 4hr | hr |
-| Total | H | 15hrs| hrs |
+| Project Hover | L | 3hr | -hr | 1hr |
+| Banner letters change color | L | 1hr | 1hr |
+| Make own logo/icon | L | 4hr | 1hr |
+| Total | H | 15hrs| 3hrs |
 
 ## Additional Libraries
 
@@ -79,13 +77,11 @@ Wireframing Resources:
  
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
-
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
+canvas{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
-```
 
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
