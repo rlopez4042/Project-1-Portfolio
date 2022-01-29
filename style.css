@@ -1,13 +1,19 @@
 * {
     scroll-behavior: smooth;
 }
+
+/* For any viewports less than 1000px wide */
+
+
+
 body{
     /* Source for how I got the page to split https://blog.prototypr.io/css-only-multi-color-backgrounds-4d96a5569a20 */
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     color: white;
     scroll-behavior: smooth;
-    background: linear-gradient(110deg, #1f1f1f 60%, #363636 60%);
+    background: linear-gradient(110deg, #1f1f1f 48.6%, #363636 48.6%);
+    /* background-size:cover; */
     /* original image background */
     /* background: */
     /* url('/Users/robertlopez/Desktop/Project 1/project-1-portfolio/Background2.webp'); */
@@ -75,10 +81,13 @@ h3, h4 {
 #about, #projects, #contact {
     line-height:2;
 }
-.link-element{
-    list-style: none;
-    display: flex;
-}
+ /* align images horisontally for contact */
+ li.link-element {
+    display:inline-block;
+    padding-left:30px;
+    position:center;
+    }
+
 #footer {
     padding: 5em 2em;
     text-align: center;
@@ -114,6 +123,7 @@ a:hover{color:gold;}
         grid-template-rows: 6fr;
     }
     .main-content .home {
+        padding-top:70px;
         grid-column: 1;
 		grid-row: 1/2 ;
     }
@@ -138,7 +148,7 @@ a:hover{color:gold;}
 /* --------------------------------------------------------------------TABLET-------------------------------------------------------------------- */
   /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
-     
+
      ul li {display: none}
      nav input:checked ~ ul li {display: inline-block}
     
@@ -191,7 +201,7 @@ a:hover{color:gold;}
 }
 /* --------------------------------------------------------------------DeskTop-------------------------------------------------------------------- */
   /* Large devices (tablets, 1024 and up) */
-  @media screen and (min-width: 769px ) {
+  @media screen and (min-width: 769px) {
     label{
         display:none;
     }
@@ -230,8 +240,15 @@ a:hover{color:gold;}
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        background-color: #1f1f1f;
+
+        /* Link below to how i solved my background sizing issues */
+        /* https://stackoverflow.com/questions/16679221/how-to-set-a-minimum-width-with-background-size/16679437        width: auto; Scale the div to the parent width */
+        height: 2000px; /* The div needs some height to be visible */
+        background-size: 100%; /* Always size the image to the width of the div */
+        background-position: top; /* Position the image to the top center of the div */
+        background-size: 1500px 2200px; /* Force the image to its minimum width */    
     }
+
     .container {
         display: grid;
         grid-template-columns: 1fr;
