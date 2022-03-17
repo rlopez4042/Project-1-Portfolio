@@ -6,8 +6,8 @@ var outter = new Image();
 
 //store the two golden circle images
 function init() {
-  center.src = '/Users/robertlopez/Desktop/Project 1/project-1-portfolio/goldenCenter.png';
-  outter.src = '/Users/robertlopez/Desktop/Project 1/project-1-portfolio/goldenCenter.png';
+  center.src = './goldenCenter.png';
+  outter.src = './goldenCenter.png';
   window.requestAnimationFrame(draw);
 }
 
