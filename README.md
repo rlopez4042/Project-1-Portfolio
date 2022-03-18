@@ -54,7 +54,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Text Hover | L | 3hr | -hr | 1hr |
+| Text Hover | L | 3hr | 1hr |
 | Banner letters change color | L | 1hr | 1hr |
 | Make own logo/icon | L | 4hr | 1hr |
  
